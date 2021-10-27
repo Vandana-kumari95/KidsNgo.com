@@ -1,0 +1,437 @@
+
+/*body{
+	
+  
+  overflow-y: hidden; /* Hide vertical scrollbar }
+*/
+body{
+	overflow-x: hidden;
+
+}
+
+
+.navbar-trans{
+	background: transparent;
+}
+.nav-item a{
+	color: white;
+	text-decoration: none;
+
+}
+
+.nav-item a:hover{
+	color: orange;
+	text-decoration: none;
+
+}
+
+.banner{
+	background-image: url(img/wood.jpg);
+	 background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 20px;
+	padding-bottom: 12px;
+}
+.donate{
+	margin-left: 40%;
+}
+
+
+.only{ 
+	background-image: url("img/footer2.jpg");/*background-color: black;*/
+	/*padding-top: 30px;
+	padding-bottom: 30px;*/
+
+	 min-height: 400px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 20px;
+	padding-bottom: 40px;
+
+}
+
+
+
+.fa
+{
+	margin-bottom: 0;
+	padding: 9px;
+	color: white;
+	border-radius: 55%;
+}
+
+
+.fa-facebook
+{
+	background-color: blue;
+}
+
+.fa-instagram
+{
+	background-color: #3f729b;
+}
+
+.fa-twitter
+{
+	background-color: #55ACEE;
+}
+
+.fa-linkedin
+{
+	background-color: #55ACEE;
+}
+
+.fa-envelope.b
+{
+	background-color: red;
+}
+
+.foot-b{
+	margin-bottom: -26px;
+}
+
+.mg1{
+	width: 60px;
+	height: 70px;
+}
+.mg{
+	color: orange;
+}
+.Quick{
+	color: orange;
+}
+
+
+.open{
+	color: orange;
+	padding-top: 30px;
+	font-size: 20px;
+	padding-right: 20px;
+}
+.time{
+	font-size: 15px;
+	color: orange;
+}
+.day{
+	font-size: 15px;
+	color: orange;
+	margin-right: 30px;
+}
+.copyright{
+	color: orange;
+	margin-left: 40%;
+	margin-bottom: -24px;
+
+}
+
+
+.photo-gallery {
+  color:#313437;
+  background-color:#fff;
+}
+
+.photo-gallery p {
+  color:#7d8285;
+}
+
+.photo-gallery h2 {
+  font-weight:bold;
+  margin-bottom:40px;
+  padding-top:40px;
+  color:inherit;
+}
+
+@media (max-width:767px) {
+  .photo-gallery h2 {
+    margin-bottom:25px;
+    padding-top:25px;
+    font-size:24px;
+  }
+}
+
+.photo-gallery .intro {
+  font-size:16px;
+  max-width:500px;
+  margin:0 auto 40px;
+}
+
+.photo-gallery .intro p {
+  margin-bottom:0;
+}
+
+.photo-gallery .photos {
+  padding-bottom:20px;
+}
+
+.photo-gallery .item {
+  padding-bottom:30px;
+}
+
+.photos{
+	padding-bottom: 20px;
+}
+
+.back{
+	 background-image: url("img/k.jpg");
+	 padding-bottom: 40px;
+
+  /* Set a specific height */
+  min-height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.gallery{
+	color:#fff;
+	padding-top: 20px;
+	background-image: url(img/back2.jpg);
+}
+
+ /*.affix {
+    top: 0;
+    width: 100%;
+    z-index: 9999 !important;
+  }
+
+  .affix + .container-fluid {
+    padding-top: 70px;
+  }*/
+
+.event{
+	background-color: black;
+	padding-top: 50px;
+	padding-bottom: 60px;
+}
+.we{
+	background-image: url(img/card3.jpg);
+	padding-bottom: 20px;
+
+}
+.dialog{
+	color: white;
+	padding-top: 30px;
+}
+.due{
+	color: white;
+	padding-left: 50%;
+	text-align: center;
+    margin-top: -7%;
+    padding-bottom: 30px;
+}
+.card-title{
+	color: #fff;
+}
+.card-text{
+	color: #fff;	
+}
+.bn{
+	margin-top: 50px;
+}
+/*.About{
+	padding-top: 20px;
+	padding-bottom: 40px;
+	background: blue;
+}*/
+.us{
+	text-align: center;
+	color: white;
+}
+.per{
+	color: white;
+	padding-top: 10px;
+}
+.ab{
+	width: 500px;
+	height: 300px;
+}
+.parallax {
+  /* The image used */
+  background-image: url("img/card.jpg");
+
+  /* Set a specific height */
+  min-height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/*.only{
+	background-image: url(img/ocen3.jpg);
+}*/
+
+.Blog{
+	padding-top: 40px;
+	padding-bottom: 40px;
+	/*background-color: gray;*/
+}
+.charity{
+	font-size: 30px;
+	color: white;
+}
+
+.edu{
+	color: white;
+}
+.manage{
+	color: white;
+}
+.vid{
+	font-size: 12px;
+
+}
+.foot-d{
+	color: orange;
+	font-size: 20px;
+	max-width: 57%;
+}
+.volunteer{
+	background-color: gray;
+	padding-bottom: 40px;
+}
+
+.parallax2 {
+  /* The image used */
+  background-image: url("img/about3.jpg");
+
+  /* Set a specific height */
+  min-height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 20px;
+	padding-bottom: 40px;
+}
+/*.only{
+	background-image: url(img/ocen3.jpg);
+}*/
+
+.card-img-top{
+	min-height: 230px;
+}
+
+.vol{
+	background-color: #B4B6BB;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.cards{
+	background: transparent;
+}
+
+
+
+.image {
+  display: block;
+  width: 100%;
+  height: 230px;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #7689cb;
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+  text-align: center;
+ margin-top: 40px;
+}
+
+.card:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.comment{
+	background-color: #81052B;
+	 padding-top: 40px;
+	 padding-bottom: 40px;
+}
+.Currency{
+	padding: 15px;
+}
+.right{
+	width: 198%;
+}
+.pd{
+	margin-right: 100%;
+}
+
+
+@media (min-width: 576px){
+	.form-inline .form-control {
+    display: inline-block;
+    width: 65%;
+    vertical-align: middle;
+}
+
+}
+
+.profile{
+	padding: 150px 10px 10px;
+	background-color: black;
+	padding-bottom: 40px;
+	border-radius: 30px;
+
+}
+.profile img{
+	top: -60px;
+	position: absolute;
+	left: calc(50% -50%);
+	border: 5px solid white;
+
+}
+/*.user{
+	width: 120px;
+	height: 10px;
+	border-radius: 200%;
+	
+}*/
+img.user{
+	/*width: 30%;
+    height: 40%;*/
+    margin-top: 12%;
+    border-radius: 200%;
+
+}
+.carousel-inner.Testimonials img{
+	width: 25%;
+	height: 30%;
+	margin-left: 35%;
+}
+blockquote{
+	padding-top: 20px;
+	text-align: center;
+	font-size: 15px;
+
+}
+.action{background-color: white}
